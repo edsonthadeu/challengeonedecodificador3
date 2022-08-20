@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="img">
+    <img src="imagem/Vector.svg">
+  </div>
+  <div class="txt">
+    <h1>Encriptador de texto!</h1>
+    <h3>Digite o texto somente em letras minúsculas</h3>
+  </div>
+  </header>
+
+  <main class="conteudo">
+    <section>
+      <form action="" class="formulario">
+        <div class="formulario_input">
+          <textarea class="text-input" type="text" name="input-texto" placeholder="Digite seu texto aqui" id="input-texto" autofocus></textarea>
+        </div>
+        <div class="formulario_botoes">
+          <input class="btn btn-encriptar" type="submit" value="Encriptar" id="btn-encriptar">
+          <input class="btn btn-desencriptar" type="submit" value="Desencriptar" id="btn-desencriptar">
+          <input class="btn btn-limpar" type="submit" value="Limpar" id="btn-limparEntrada">
+        </div>
+      </form>
+    </section>
+  
+    <section class="box">
+      <form action="">
+      <div class="formulario_resposta">
+        <textarea class="text-input" type="text" name="msg" placeholder="Resultado" id="resultado"></textarea>
+      </div>
+      <div>
+        <button class="btn btn-copiar" id="btn-copy">Copiar</button> 
+        <input class="btn btn-limpar" type="submit" value="Limpar" id="btn-limparSaida">
+      </div>
+    </section>
+  </form>
+  </main>
+
+  <footer class="footer">
+    <p class="footer_texto">By Edson Thadeu da Silva Godoi Junior - Todos os direitos Reservados 2022.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
